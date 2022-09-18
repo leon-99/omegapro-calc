@@ -17,7 +17,7 @@ function invest(amount, month, year, times) {
        returnAmount = returnAmount - passive
     } else {
         d = new Date(d.getFullYear(), d.getMonth())
-        d.setMonth(d.getMonth() + +15)
+        d.setMonth(d.getMonth() + +16)
         returnAmount = Math.round(returnAmount * 3)
         passive = Math.round(returnAmount * 0.3)
         returnAmount = returnAmount - passive
