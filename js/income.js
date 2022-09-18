@@ -43,7 +43,7 @@ function invest(amount, month, year, times) {
 
 
 function setData() {
-    
+    tbody.innerHTML += ``
     htmlAmount = document.getElementById("amount").value
     htmlReinvest = document.getElementById("reInvest").value
     htmlMonth = document.getElementById("month").value
